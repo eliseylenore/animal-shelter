@@ -29,6 +29,7 @@ body {
   background-color: #deefd6;
   padding: 1%;
   line-height: 1.25em;
+  /*border: 2px solid red;*/
 }
 
 .column img {
@@ -38,6 +39,7 @@ body {
 
 .column h2 {
   font-size: 36px;
+
 }
 
 .caption {
@@ -57,8 +59,40 @@ h1 {
 
 h2 {
   font-family: 'Architects Daughter', cursive;
+  margin-top: -40px;
 }
 
 h1, h2 {
   text-align: center;
+}
+
+@media screen and (min-width: 1800px) {
+  .column p{
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+  h2.subtitle {
+    font-size: 36px;
+    border: 2px solid red;
+  }
+
+  h1{
+    font-size:90px;
+    padding-left: 10px;
+    border: 2px solid red;
+  }
+
+  h1, h2.subtitle {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 916px){
+  .column {
+    float: none;
+    width: 85%;
+    margin: 0 auto 20px;
+
+
+  }
 }
