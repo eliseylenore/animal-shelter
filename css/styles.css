@@ -4,6 +4,10 @@ body {
   background-color: #cfeac2;
 }
 
+h2.subtitle {
+  margin-top: -40px;
+}
+
 #banner {
   background-color: white;
   background-image:url(http://www.warrenphotographic.co.uk/photography/bigs/26159-Six-baby-rabbits-white-background.jpg);
@@ -39,7 +43,6 @@ body {
 
 .column h2 {
   font-size: 36px;
-
 }
 
 .caption {
@@ -59,8 +62,9 @@ h1 {
 
 h2 {
   font-family: 'Architects Daughter', cursive;
-  margin-top: -40px;
 }
+
+
 
 h1, h2 {
   text-align: center;
@@ -73,13 +77,11 @@ h1, h2 {
   }
   h2.subtitle {
     font-size: 36px;
-    border: 2px solid red;
   }
 
   h1{
     font-size:90px;
     padding-left: 10px;
-    border: 2px solid red;
   }
 
   h1, h2.subtitle {
