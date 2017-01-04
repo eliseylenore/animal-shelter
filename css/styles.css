@@ -15,6 +15,26 @@
   width: 100%;
 }
 
+.caption {
+  font-style: italic;
+  font-weight: lighter;
+  color: #696969;
+}
+
+.important {
+  font-weight: bold;
+}
+
 body {
   margin: 0 auto;
+  font-family: sans-serif;
+  line-height: 1.25em;
+}
+
+h1 {
+  font-family: 'Leckerli One', cursive;
+}
+
+h2 {
+  font-family: 'Architects Daughter', cursive;
 }
