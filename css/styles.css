@@ -70,6 +70,34 @@ h1, h2 {
   text-align: center;
 }
 
+
+/******Toggle Dark and Light Background********/
+.dark-background {
+  background-color: #003200;
+  color: white;
+}
+
+.light-background {
+  background-color: #cfeac2;
+  color: black;
+}
+
+.toggle-light, .toggle-dark {
+  cursor: pointer;
+  color: green;
+  text-align: center;
+}
+
+.toggle-light:hover, .toggle-dark:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+/******Media Queries*******/
 @media screen and (min-width: 1800px) {
   .column p{
     font-size: 24px;
