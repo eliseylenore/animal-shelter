@@ -77,6 +77,10 @@ h1, h2 {
   color: white;
 }
 
+.dark-background .column {
+  color: black;
+}
+
 .light-background {
   background-color: #cfeac2;
   color: black;
